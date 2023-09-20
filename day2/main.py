@@ -1,7 +1,8 @@
 # day 2 - 100 days of coding
 # todays project is a tip calculator
+print("Welcome to the tip calculator!")
 count = input("how many people will be splitting? ")
-price = input("what is the cost? ")
+price = input("what is the cost? $")
 total = round(int(price)/int(count), 2)
 twenty = total * .2
 twenty_five = total * .25
