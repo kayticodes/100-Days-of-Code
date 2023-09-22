@@ -1,11 +1,21 @@
 # A file for practice challenges to go
+import random
+# Flip a coin game
+print("Welcome to this flipping game!")
+random_int = random.randint(1, 10)
+if random_int % 2 == 0:
+    print("heads")
+else:
+    print("tails")
+
+
 
 # Find odd or even challenge
-num = input("please enter an integer: ")
-if int(num) % 2 == 0:
-    print(f"{num} is an even integer.")
-else:
-    print(f"{num} is an odd integer.")
+# num = input("please enter an integer: ")
+# if int(num) % 2 == 0:
+#     print(f"{num} is an even integer.")
+# else:
+#     print(f"{num} is an odd integer.")
 
 # Practice Challenge
 # yrs = 90 - int(input("What is your current age? "))
