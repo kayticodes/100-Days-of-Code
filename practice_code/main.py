@@ -1,12 +1,26 @@
 # A file for practice challenges to go
 import random
+
+# Rock Paper sizzors
+print("Let's play Rock Paper Sissors!")
+player = str.lower(input("what's your move? R, P, or S? "))
+comp = random.randint(1, 3)
+
+if player == "r":
+    print("you chose rock")
+    if comp == 1:
+        print("The computer also chose rock - it's a draw!")
+    if comp == 2:
+        print("The computer those paper - it's a draw!")
+
+
 # Flip a coin game
-print("Welcome to this flipping game!")
-random_int = random.randint(1, 10)
-if random_int % 2 == 0:
-    print("heads")
-else:
-    print("tails")
+# print("Welcome to this flipping game!")
+# random_int = random.randint(1, 10)
+# if random_int % 2 == 0:
+#     print("heads")
+# else:
+#     print("tails")
 
 
 
