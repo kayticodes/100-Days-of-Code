@@ -11,8 +11,10 @@ if player == "r":
     if comp == 1:
         print("The computer also chose rock - it's a draw!")
     if comp == 2:
-        print("The computer those paper - it's a draw!")
-
+        print("The computer chose paper - the computer wins!")
+    if comp == 3:
+        print("The computer chose sissors - You Win!")
+        
 
 # Flip a coin game
 # print("Welcome to this flipping game!")
