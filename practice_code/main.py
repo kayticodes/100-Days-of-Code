@@ -14,8 +14,24 @@ if player == "r":
         print("The computer chose paper - the computer wins!")
     if comp == 3:
         print("The computer chose sissors - You Win!")
-        
 
+if player == "p":
+    print("you chose paper")
+    if comp == 1:
+        print("The computer chose rock - You Win!")
+    if comp == 2:
+        print("The computer chose paper - it's a draw!")
+    if comp == 3:
+        print("The computer chose sissors - The computer wins!")
+
+if player == "s":
+    print("you chose sissors")
+    if comp == 1:
+        print("The computer chose rock - The computer wins!")
+    if comp == 2:
+        print("The computer chose paper - You Win!")
+    if comp == 3:
+        print("The computer chose sissors - It's a draw!")
 # Flip a coin game
 # print("Welcome to this flipping game!")
 # random_int = random.randint(1, 10)
@@ -23,7 +39,6 @@ if player == "r":
 #     print("heads")
 # else:
 #     print("tails")
-
 
 
 # Find odd or even challenge
