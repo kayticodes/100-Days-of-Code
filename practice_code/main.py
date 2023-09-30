@@ -6,6 +6,7 @@ print("Let's play Rock Paper Sissors!")
 player = str.lower(input("what's your move? R, P, or S? "))
 comp = random.randint(1, 3)
 
+# Player chooses rock
 if player == "r":
     print("you chose rock")
     if comp == 1:
@@ -15,6 +16,7 @@ if player == "r":
     if comp == 3:
         print("The computer chose sissors - You Win!")
 
+# Player chooses paper
 if player == "p":
     print("you chose paper")
     if comp == 1:
@@ -24,6 +26,7 @@ if player == "p":
     if comp == 3:
         print("The computer chose sissors - The computer wins!")
 
+# Player chooses sissors
 if player == "s":
     print("you chose sissors")
     if comp == 1:
