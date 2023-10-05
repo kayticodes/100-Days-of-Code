@@ -1,5 +1,6 @@
 # Day 3 of 100 days of code
 # Treasure hunt game - choose your own adventure
+# ascii art from: https://ascii.co.uk/art/treasure
 
 print('''*******************************************************************************
           |                   |                  |                     |
